@@ -1,0 +1,80 @@
+body {
+  background-image: url('img-1.JPG') ;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(31, 31, 31, 1.0);
+  font-family: 'Open Sans', sans-serif;
+}
+
+html{
+  height: 100%;
+}
+
+#content { 
+  text-align: center; 
+  padding-top: 27%;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 60;
+}
+
+h3{
+  color: white;
+  letter-spacing: 3;
+}
+
+hr{
+   height: 12px;
+   border-top: 3px solid white ;
+   width: 90%;
+}
+
+/*****************   NAVBAR   ***************/
+.navbar-default {
+  background-color: #004e64;
+  border: #004e64;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #d1faff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: #30bced;
+}
+
+.navbar-default .navbar-brand {
+  color: #d1faff;
+  font-family: 'Pacifico', cursive;
+
+}
+
+.btn-default:hover{
+  color: #004e64;
+  background-color: #d1faff;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #30bced;
+}
+
+
+/*Hamburger thing*/
+.navbar-default .navbar-toggle .icon-bar{ 
+  background-color: #d1faff;
+}
+
+
+/*Get on the road button*/
+.btn-default{
+  background-color: #004e64;
+  color: #d1faff;
+  border: #004e64;
+}
+
+.navbar-default .navbar-toggle{
+  color: #004e64;
+}
