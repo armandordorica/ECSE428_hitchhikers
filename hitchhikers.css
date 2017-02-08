@@ -149,7 +149,7 @@ hr{
 .row .text-center p{
   color: #000;
 }
-#services a {
+#services a, strong {
     color: #ffffff  ;
     text-decoration: none;
 }
@@ -157,6 +157,10 @@ hr{
 #services a:hover{
   color: #004e64;
   background-color: #d1faff;
+}
+
+#services p{
+  color: white;
 }
 .btn:hover {
     color: #004e64;
