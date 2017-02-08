@@ -12,6 +12,12 @@
   font-size: 20px;
   color: #d1faff;
 }
+
+
+#invoice strong{
+color: black;
+}
+
  /**********/
 
 body{
@@ -146,11 +152,13 @@ hr{
   color: #004e64  ;
 }
 
+.service-item strong{
+  color: white;
+}
 .row .text-center p{
   color: #000;
 }
 #services a, strong {
-    color: #ffffff  ;
     text-decoration: none;
 }
 
@@ -187,4 +195,6 @@ hr{
 color: #004e64;
 }
 /*****************************/ 
+
+
 
