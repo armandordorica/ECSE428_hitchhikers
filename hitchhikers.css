@@ -139,7 +139,7 @@ hr{
 }
 
 .bg-primary p, strong{
-  color: #fff;
+  color: #004e64;
 }
 
 .text-primary{
@@ -147,7 +147,7 @@ hr{
 }
 
 .row .text-center p{
-  color: #fff;
+  color: #000;
 }
 #services a {
     color: #ffffff  ;
