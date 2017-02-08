@@ -96,6 +96,7 @@ hr{
   background-color: #004e64;
   color: #d1faff;
   border: #004e64;
+  height: 40px;
 }
 
 .navbar-default .navbar-toggle{
@@ -115,7 +116,13 @@ hr{
   padding-bottom: 0px;
 }
 
+#trip-input .container{
+  padding-bottom: 60px;
+}
 
+#trip-input .btn-default{
+  margin-top: 20px;
+}
 /*Bootstrap overwrite*/ 
 
 .container .welcome .btn .btn-default .btn-lg{
@@ -126,15 +133,22 @@ hr{
 .container .welcome h1{
   font-size: 50px;
 }
-.bg-primary {
-    color: #fff;
-    background-color: #30bced;
+.bg-primary{
+    color: #d1faff;
+    background-color: #004e64;
+}
+
+.bg-primary p, strong{
+  color: #fff;
 }
 
 .text-primary{
-  color: #30bced;
+  color: #004e64  ;
 }
 
+.row .text-center p{
+  color: #fff;
+}
 #services a {
     color: #ffffff  ;
     text-decoration: none;
